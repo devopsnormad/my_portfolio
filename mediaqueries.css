@@ -61,7 +61,11 @@
         height: 83vh;
         margin-bottom: 0;
     }
+    .text-container p{
+     
+        text-align: center;
 
+    }
     article {
         font-size: 1rem;
     }
@@ -84,6 +88,10 @@
         font-size: 1rem;
     }
 
+    .experience-group{
+        display: flex;
+        flex-direction: column;
+    }
     .experience-sub-title {
         font-size: 1.25rem;
     }
@@ -102,17 +110,65 @@
         width: auto;
         height: 46vw;
         justify-content: center;
+        margin-top: 20px;
     }
 
+    .details-container {
+        margin-top: 20px;
+    }
+    .section-container{
+        margin-bottom: 20px;
+    }
+
+    #profile, #about {
+        margin-bottom: 30px;
+    }
+    .text_p1{
+        margin-top: 5px;
+        font-size: 0.9rem;
+    }
     .text_p2{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 
     .title{
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .text-container {
+        width: 60%;
+        margin:0 85px;
+        padding:0 20px;
+        
+    }
+    .text-container p {
         text-align: justify;
+        font-size: 0.9rem;
+    }
+
+    .about-containers{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .details-container{
+        max-width:200px;
+        width: 100%;
+    }
+
+    .contact-info-upper-container {
+        display: flex;
+        gap: 10px;
+        border: none;
+    }
+    .contact-info-upper-container p{
+        font-size: 0.7rem;
+    }
+    footer a{
+        font-size: 1rem;
+    }
+    footer p {
+        font-size: 0.8rem;
     }
 }
